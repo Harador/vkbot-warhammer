@@ -1,0 +1,18 @@
+{
+  "name": "botvk",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Harador",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "node-vk-bot-api": "^3.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
