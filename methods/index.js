@@ -1,5 +1,6 @@
 let getAllWorlds = require("./getAllWorlds");
 let createWorld = require("./createWorld");
+let settleWorld = require("./settleWorld");
 let getHelp = require("./getHelp");
 let findWorld = require("./findWorld");
 let testAdd = require("./testAdd");
@@ -11,6 +12,9 @@ async function getReply(mes, id, ctx) {
     case "hey":
     case "привет":
       return getHello(ctx);
+      break;
+    case "заселить":
+      return settleWorld(ctx, mes, id);
       break;
     case "создать":
       return createWorld(ctx, mes, id);

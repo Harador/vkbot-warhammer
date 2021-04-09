@@ -91,6 +91,11 @@ const World = new Schema({
     default: "N/A",
     trim: true,
   },
+  организации: {
+    type: String,
+    default: "N/A",
+    trim: true,
+  },
 });
 
 module.exports = model("worlds", World);
