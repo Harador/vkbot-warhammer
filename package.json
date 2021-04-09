@@ -10,6 +10,8 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "mongodb": "^3.6.5",
+    "mongoose": "^5.12.3",
     "node-vk-bot-api": "^3.4.0"
   },
   "devDependencies": {
