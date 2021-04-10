@@ -1,12 +1,10 @@
 //--------------VK----------\\
 const VkBot = require("node-vk-bot-api");
-const token =
-  "f00105b27867e6fcabf67a37f76be92108f93a24afe0a94e067a6a452681d6297185e9b277b3caf2b00ab";
+const token = 0;
 const bot = new VkBot(token);
 //--------MONGO---------\\
 const mongoose = require("mongoose");
-const uri =
-  "mongodb+srv://harador:O8mnfA3lrNg4yvEm@cluster1.bvncx.mongodb.net/WarhammerVK?retryWrites=true&w=majority";
+const uri = 0;
 
 //-------------------------------\\
 //! функция-обработчик запросов
